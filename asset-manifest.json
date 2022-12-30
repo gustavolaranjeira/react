@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/react/static/css/main.073c9b0a.css",
-    "main.js": "/react/static/js/main.55c6ec25.js",
+    "main.css": "/react/static/css/main.cc539ef8.css",
+    "main.js": "/react/static/js/main.b2aa1db2.js",
     "static/js/787.e20e5853.chunk.js": "/react/static/js/787.e20e5853.chunk.js",
-    "static/media/logo.svg": "/react/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/helvetica-neu.ttf": "/react/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/LaBelleAurore.woff2": "/react/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/CoolveticaRg-Regular.woff2": "/react/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/react/index.html",
-    "main.073c9b0a.css.map": "/react/static/css/main.073c9b0a.css.map",
-    "main.55c6ec25.js.map": "/react/static/js/main.55c6ec25.js.map",
+    "main.cc539ef8.css.map": "/react/static/css/main.cc539ef8.css.map",
+    "main.b2aa1db2.js.map": "/react/static/js/main.b2aa1db2.js.map",
     "787.e20e5853.chunk.js.map": "/react/static/js/787.e20e5853.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.55c6ec25.js"
+    "static/css/main.cc539ef8.css",
+    "static/js/main.b2aa1db2.js"
   ]
 }
