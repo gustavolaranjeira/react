@@ -9,12 +9,12 @@ import { faGithub, faLinkedin, faSkype, faYoutube } from '@fortawesome/free-bran
 const Sidebar = () => {
   return (
     <div className="nav-bar">
-      <Link className='logo' to='/react'>
+      <Link className='logo' to='/'>
         <img src={LogoG} alt="logo" />
         <img className='sub-logo' src={LogoSub} alt="Gustavo" />
       </Link>
       <nav>
-        <NavLink exact="true" activeclassname="active" className="home-link" to="/react">
+        <NavLink exact="true" activeclassname="active" className="home-link" to="/react/home">
           <FontAwesomeIcon icon={faHome} color="grey" />
         </NavLink>
         <NavLink activeclassname="active" className="about-link" to="/react/about">
