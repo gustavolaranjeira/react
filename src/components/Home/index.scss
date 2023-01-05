@@ -14,7 +14,7 @@
     line-height: 53px;
     margin: 0;
     font-family: 'Coolvetica';
-    font-weight: 400;
+    font-weight: lighter;
 
     &:before {
       content: '<h1>';
@@ -48,7 +48,8 @@
     }
   }
 
-  h2 {
+  h2,
+  a {
     color: #8d8d8d;
     margin-top: 40px;
     font-weight: 400;
@@ -56,6 +57,10 @@
     font-family: sans-serif;
     letter-spacing: 3px;
     animation: fadeIn 1s 1.8s backwards;
+  }
+
+  a {
+    font-weight: 700;
   }
 
   .flat-button {

@@ -6,8 +6,8 @@ import './index.scss';
 import Logo from './Logo';
 
 const Home = () => {
-  const nameArray = ['u', 's', 't', 'a', 'v', 'o'];
-  const jobArray = ['w', 'e', 'b', ' ', 'd', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r', '.'];
+  const nameArray = ['u', 's', 't', 'a', 'v', 'o', ' ', 'a', 'n', 'd'];
+  const jobArray = [' ', 'a', ' ', 'f', 'u', 'l', 'l', '-', 's', 't', 'a', 'c', 'k', ' ', 'd', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r', '.'];
   return (
     <>
       <div className="container home-page">
@@ -30,13 +30,16 @@ const Home = () => {
               idx={15}
             />
             <br />
+            <span className={`${'text-animate-hover'} _14`}>I</span>
+            <span className={`${'text-animate-hover'} _15`}>'</span>
+            <span className={`${'text-animate-hover'} _16`}>m</span>
             <AnimatedLetters
               letterClass={'text-animate-hover'}
               strArray={jobArray}
               idx={22}
             />
           </h1>
-          <h2>Front End Developer / JavaScript Expert / Youtuber</h2>
+          <h2>Front-end, back-end and cloud, check more <a href="about">here.</a></h2>
           <Link to="/react/contact" className="flat-button">
             CONTACT ME
           </Link>
